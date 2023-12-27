@@ -31,4 +31,19 @@
 ![GitHub Logo](/images/logo.png)
 Format: ![Alt Text](url)
 
+## 6) Bold 처리방법
+```
+*single asterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+~~cancelline~~
+```
+*single asterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+~~cancelline~~
+
+__출처 : https://gist.github.com/ihoneymon/652be052a0727ad59601__
 ## 가장 중요한 것은 배포하더라도 화면반영까지 시간이 제법 소요된다는 거다
