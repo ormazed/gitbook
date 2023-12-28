@@ -10,3 +10,5 @@
     * ShellScript
     * JAVA
     * APM
+    * Kafka
+    
