@@ -6,9 +6,11 @@
     * CCNA
 
 2. 기술능력 향상
+    * Java Multi Threading
     * DOCKER
     * ShellScript
     * JAVA
     * APM
     * Kafka
+
     
