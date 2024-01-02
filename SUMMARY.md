@@ -6,7 +6,7 @@
         * [TOMCAT SSL 설정방법](work/tomcat/note/ssl_note.md)
 * [STUDY](STUDY.md)
     * [DOCKER](study/docker/DOCKER_README.md)
-        * Inflean
+        * [인프런](study/docker/Inflearn_DOCKER_README copy.md)
     * [ShellScript]
     * [JAVA]
     * [SQLD]
