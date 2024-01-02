@@ -4,20 +4,20 @@
 (1) Concurrency - Multitasking  
 (2) Motivation  
 - Responsiveness - Concurrency  
-> 하나의 코어로 여러 작업을 동시에 수행할 수 있다.  
+: 하나의 코어로 여러 작업을 동시에 수행할 수 있다.  
 - Performance - Parallelism  
-> Single Thread 를 수행하는 것 보다 더 많은 작업을 수행할 수 있다.  
+: Single Thread 를 수행하는 것 보다 더 많은 작업을 수행할 수 있다.  
 * 각 프로세스는 시스템에서 실행되는 다른 프로세스와는 완전히 별개로 존재  
 * 각각의 Thread 는 자체 Stack 과 Instruction Pointer 를 가진다.  
-> 프로세스 내의 나머지 컴포넌트는 모든 Thread 가 공유한다.  
-
-What the thread contains  
-> Stack  
->> 메모리 영역으로 지역 변수가 저장되고 기능이 실행되는 영역  
-> Instruction Pointer  
->> Thread 가 실행할 다음 명령어의 주소를 가리키는 역할을 수행  
-* 개별 Thread 들은 독립적으로 행동한다 => 각 Thread 들은 별도의 Stack 과 Instruction Pointer 를 가지게 된다.
+: 프로세스 내의 나머지 컴포넌트는 모든 Thread 가 공유한다.  
+(3) What the thread contains  
+* Stack  
+: 메모리 영역으로 지역 변수가 저장되고 기능이 실행되는 영역  
+* Instruction Pointer  
+: Thread 가 실행할 다음 명령어의 주소를 가리키는 역할을 수행  
+* 개별 Thread 들은 독립적으로 행동한다 => 각 Thread 들은 별도의 Stack 과 Instruction Pointer 를 가지게 된다.   
 ---
+
 ### 2. 운영 체제 기초 - 2부
 (1) Context Switch  
 > 하나의 스레드 실행을 멈추고 다른 스레드를 스케줄링한 다음 다시 실행하는 것을 의미  
@@ -39,7 +39,7 @@ What the thread contains
 : 보안과 안정성 측면에서 하나의 프로그램을 독립된 프로세스에서 실행하는 것이 더 좋은 경우도 존재한다.  
 : 서로 관련없는 작업을 하는 경우  
 
-
+---
 ### 참고 
 : https://docs.oracle.com/javase/8/docs/api/java/lang/Thread.State.html
 : https://developer.ibm.com/tutorials/l-completely-fair-scheduler/
