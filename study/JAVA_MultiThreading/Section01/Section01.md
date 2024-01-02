@@ -22,12 +22,12 @@ What the thread contains
 * 개별 Thread 들은 독립적으로 행동한다 => 각 Thread 들은 별도의 Stack 과 Instruction Pointer 를 가지게 된다.
 ---
 ### 2. 운영 체제 기초 - 2부
-(1) Context Switch
-하나의 스레드 실행을 멈추고 다른 스레드를 스케줄링한 다음 다시 실행하는 것을 의미
-각 프로세스는 하나 이상의 Thread 를 가진다.  
-Context Switch 가 발생하면 기존에 동작하던 Thread 의 데이터를 저장하고 새로 동작할 Thread 의 리소스를 가져오는 동작이 필요하다 => cost 발생  
-Too many threads 발생 - Thrashing 이 발생할 수 있다(배보다 배꼽이 더 커질 수 있다).  
-Threads consume less resources than process and threads from the same process is cheaper than context switch beteen different processes.  
+(1) Context Switch  
+> 하나의 스레드 실행을 멈추고 다른 스레드를 스케줄링한 다음 다시 실행하는 것을 의미
+: 각 프로세스는 하나 이상의 Thread 를 가진다.  
+: Context Switch 가 발생하면 기존에 동작하던 Thread 의 데이터를 저장하고 새로 동작할 Thread 의 리소스를 가져오는 동작이 필요하다 => cost 발생  
+: Too many threads 발생 - Thrashing 이 발생할 수 있다(배보다 배꼽이 더 커질 수 있다).  
+: Threads consume less resources than process and threads from the same process is cheaper than context switch beteen different processes.  
 
 (2) Thread Scheduling
 > 
