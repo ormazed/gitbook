@@ -1,8 +1,8 @@
 # 강의 내용
 ## Section01. 개요
 ### 1. 개요와 운영 체제 기초 - 1부
-(1) Concurrency - Multitasking  
-(2) Motivation  
+__(1) Concurrency - Multitasking__   
+__(2) Motivation__   
 - Responsiveness - Concurrency  
 : 하나의 코어로 여러 작업을 동시에 수행할 수 있다.  
 - Performance - Parallelism  
@@ -10,7 +10,7 @@
 * 각 프로세스는 시스템에서 실행되는 다른 프로세스와는 완전히 별개로 존재  
 * 각각의 Thread 는 자체 Stack 과 Instruction Pointer 를 가진다.  
 : 프로세스 내의 나머지 컴포넌트는 모든 Thread 가 공유한다.  
-(3) What the thread contains  
+__(3) What the thread contains__   
 * Stack  
 : 메모리 영역으로 지역 변수가 저장되고 기능이 실행되는 영역  
 * Instruction Pointer  
@@ -19,17 +19,17 @@
 ---
 
 ### 2. 운영 체제 기초 - 2부
-(1) Context Switch  
+__(1) Context Switch__   
 > 하나의 스레드 실행을 멈추고 다른 스레드를 스케줄링한 다음 다시 실행하는 것을 의미  
 : 각 프로세스는 하나 이상의 Thread 를 가진다.  
 : Context Switch 가 발생하면 기존에 동작하던 Thread 의 데이터를 저장하고 새로 동작할 Thread 의 리소스를 가져오는 동작이 필요하다 => cost 발생  
 : Too many threads 발생 - Thrashing 이 발생할 수 있다(배보다 배꼽이 더 커질 수 있다).  
 : Threads consume less resources than process and threads from the same process is cheaper than context switch beteen different processes.  
 
-(2) Thread Scheduling  
+__(2) Thread Scheduling__   
 > 운영체제가 각각의 스레드에 적용하는 동적 우선순위를 결정하는 방식이 중요하다.
 
-(3) Thread vs Processes
+__(3) Thread vs Processes__   
 * Multithread 가 좋은 경우  
 : 많은 데이터를 공유하는 다양한 작업을 수행하는 경우  
 : 스레드의 생성과 파기 속도 > 프로세스의 생성과 파기 속도  
