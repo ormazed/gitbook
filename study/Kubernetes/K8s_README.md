@@ -18,7 +18,7 @@ yum install google-cloud-sdk-gke-gcloud-auth-plugin
 
 > 에러발생2   
 ```
-Transaction check error:   
+Transaction check error   
 file   
 /usr/1ib64/google-cloud-sdk/platform/bundledpythonunix/lib/ite14.2.2/1ibitc14.2.2.a from install of google-cloud-sdk-458.0.1-1.x86 64 conflicts with file   
 file   
