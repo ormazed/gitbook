@@ -13,7 +13,7 @@ CRITICA ACTION REQUIRED gke-gcloud-auth-plugin, which is needed for continued us
 gke-gcloud-auth-plugin for use with kubectl by following
 https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke   
 ```
-> 해결1(docs 참고) : gke-gcloud-auth-plugin 설치   
+> 해결1(docs 참고) gke-gcloud-auth-plugin 설치   
 yum install google-cloud-sdk-gke-gcloud-auth-plugin   
 
 > 에러발생2   
