@@ -9,7 +9,7 @@ gcloud container clusters get-credentials in28minutes-cluster --zone us-centrall
 ```
 Fetching cluster endpoint and auth data.   
 kubeconfig entry generated for in28minutes-cluster   
-CRITICAL: ACTION REQUIRED: gke-gcloud-auth-plugin, which is needed for continued use of kubectl, was not found or is not executable Install
+CRITICAL:ACTION REQUIRED: gke-gcloud-auth-plugin, which is needed for continued use of kubectl, was not found or is not executable Install
 gke-gcloud-auth-plugin for use with kubectl by following
 https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke   
 ```
